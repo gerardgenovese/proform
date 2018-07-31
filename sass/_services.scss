@@ -1,0 +1,95 @@
+.serv-heading {
+  margin-bottom: 2%;
+}
+.serv-header {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  // background-image: linear-gradient(to bottom, rgba(8, 8, 8, 0.671), rgb(14, 13, 13));
+  color: rgb(17, 16, 16);
+  height: 3rem;
+  font-family: Impact;
+  margin: 0 10% 0 10%;
+  letter-spacing: .5rem;
+
+
+
+  // clip-path: polygon(10% 0, 90% 0, 93% 17%, 100% 50%, 90% 100%, 10% 100%, 0 50%, 6% 19%);
+  // clip-path: polygon(50% 0%, 95% 0, 98% 60%, 100% 98%, 0 100%, 2% 59%, 5% 0);
+}
+.serv-header__text-bg {
+  // background: url('../img/orange-bg.png');
+  background-size: cover;
+  background-position: -50px 0;
+  // clip-path: polygon(50% 0%, 90% 0, 100% 60%, 100% 100%, 0 100%, 0% 60%, 10% 0);
+  padding-top: 1%;
+}
+.serv-header__text {
+  text-align:center;
+  font-size: 1rem;
+  margin: 0% 8% 0 8%;
+  padding: 1% 2% 2% 2%;
+  font-family: Helvetica;
+  color: rgb(41, 37, 37);
+}
+.serv-card {
+  color: white;
+  margin-bottom: .5rem !important;
+}
+.serv-text {
+  color: white;
+  font-family: Verdana;
+  line-height: 1.5;
+}
+.btn-orange {
+  background-color: rgb(221, 149, 16);
+  color: white;
+
+  &:hover {
+    background-color: rgb(168, 116, 18);
+  }
+}
+.membrane {
+  background-image: linear-gradient(to right, rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../img/membrane.jpg');
+  background-size: cover;
+}
+.serv-title {
+  text-align: center;
+  background-color: rgba(255,255,255,.9);
+  color: rgb(7, 7, 7);
+  text-transform: uppercase;
+}
+
+.crystalline {
+  background-image: linear-gradient(to right, rgba(0,0,0,.6), rgba(0,0,0,.9)), url('../img/crystalline.jpg');
+  background-size: cover;
+}
+
+.grout {
+  background-image: linear-gradient(to right, rgba(0,0,0,.6), rgba(0,0,0,.9)), url('../img/grout.jpg');
+  background-size: cover;
+}
+.shotcrete {
+  background-image: linear-gradient(to right, rgba(0,0,0,.6), rgba(0,0,0,.9)), url('../img/shotcrete.jpg');
+  background-size: cover;
+}
+.lead-abatement {
+  background-image: linear-gradient(to right, rgba(0,0,0,.6), rgba(0,0,0,.9)), url('../img/lead-abatement.jpg');
+  background-size: cover;
+}
+.concrete-formwork {
+  background-image: linear-gradient(to right, rgba(0,0,0,.6), rgba(0,0,0,.9)), url('../img/concrete-formwork.jpg');
+  background-size: cover;
+}
+.curb {
+  background-image: linear-gradient(to right, rgba(0,0,0,.6), rgba(0,0,0,.9)), url('../img/curb.jpg');
+  background-size: cover;
+}
+.fireproofing {
+  background-image: linear-gradient(to right, rgba(0,0,0,.6), rgba(0,0,0,.9)), url('../img/fireproofing.jpg');
+  background-size: cover;
+}
+.asbestos {
+  background-image: linear-gradient(to right, rgba(0,0,0,.6), rgba(0,0,0,.9)), url('../img/asbestos.jpg');
+  background-size: cover;
+}
+

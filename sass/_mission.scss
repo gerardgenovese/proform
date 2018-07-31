@@ -1,0 +1,116 @@
+.mission-background {
+  background-image: url("../img/backIcon.png");
+  background-repeat: no-repeat;
+}
+
+.mission-header {
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 5px;
+  padding-top: 1rem;
+}
+
+.mission-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mission-text {
+  text-align: center;
+  margin-top: 2%;
+  padding-right: 20px;
+  padding: 0 5rem;
+}
+.mission-text p {
+  margin-right: 10px;
+  color: #000;
+}
+@media (min-width: 1900px) {
+  .mission-background {
+    background-image: none;
+  }
+}
+
+//Media Query 1100px
+
+@media (max-width: 1100px) {
+  .mission-background {
+    background-image: url("../img/backIcon.png");
+    background-repeat: no-repeat;
+  }
+
+  .mission-header {
+    text-align: center;
+  }
+
+  .mission-text {
+    text-align: center;
+    margin-top: 2%;
+    padding: 0 2rem;
+  }
+  .mission-text p {
+    padding-right: 15px;
+  }
+}
+
+//Media Query 850px
+
+@media (max-width: 850px) {
+  .mission-header {
+    padding-top: 0;
+  }
+  .mission-text {
+    margin-top: -0.5%;
+  }
+}
+
+//Media Query 800px
+
+@media (max-width: 800px) {
+  .mission-info {
+    padding: 0 1rem;
+  }
+}
+
+//Media Query 768px
+
+@media (max-width: 768px) {
+  .mission-background {
+    background-image: url("../img/backIcon.png");
+  }
+  .mission-text {
+    text-align: center;
+    margin-top: -2%;
+    font-size: 1.3rem;
+    padding-top: 1rem;
+  }
+  .mission-icon-text {
+    display: none;
+  }
+  .mission-text p {
+    margin-right: 0;
+  }
+}
+
+//Media Query 600
+@media (max-width: 600px) {
+  .mission-text {
+    font-size: 1.2rem;
+  }
+}
+
+//Media Query 500
+@media (max-width: 500px) {
+  .mission-text {
+    font-size: 1rem;
+  }
+}
+
+//Media Query 400
+@media (max-width: 400px) {
+  .mission-text {
+    font-size: 0.9rem;
+  }
+}

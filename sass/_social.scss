@@ -1,0 +1,36 @@
+
+.social-bottom {
+  color: white;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-bottom a {
+  color: white;
+}
+
+//Media 768px
+@media(max-width:768px) {
+  .social-bottom {
+      font-size: .8rem;
+  }
+  .social-bottom .fa-facebook-official {
+      font-size: 1.2rem;
+  }
+  .social-bottom .fa-instagram {
+      font-size: 1.2rem;
+  }
+  .social-bottom .fa-youtube {
+      font-size: 1.2rem;
+  }
+}
+
+//MEDIA QUERY 350PX 
+@media(max-width: 350px) {
+  .social-bottom {
+    font-size: .5rem;
+  }
+}

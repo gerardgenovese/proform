@@ -1,0 +1,31 @@
+.footer {
+  background-color: rgb(238, 231, 231);
+  color: rgb(32, 30, 30);
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-logo {
+  width: 14rem;
+  height: 12rem;
+  padding-top: 1rem;
+}
+
+//Media Query 768px
+
+@media (max-width: 768px) {
+  .footer-logo {
+    width: 15rem;
+  }
+}
+
+//Media Query 400px
+
+@media (max-width: 400px) {
+  footer {
+    font-size: 0.8rem;
+  }
+}

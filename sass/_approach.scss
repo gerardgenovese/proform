@@ -1,0 +1,117 @@
+#approach {
+  background-image: linear-gradient(
+      rgba(250, 245, 245, 0.1),
+      rgba(250, 245, 245, 0.3)
+    ),
+    url("../img/building1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.approach-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.approach-header1 {
+  font-size: 3rem;
+  color: rgb(129, 129, 216);
+  margin-left: 3%;
+}
+.approach-header2 {
+  font-size: 3rem;
+  color: rgb(129, 129, 216);
+  margin-left: 3%;
+}
+.approach-text {
+  font-size: 1.1rem;
+  margin-left: 3%;
+}
+
+.approach__box-info {
+  border: 2px solid rgba(175, 175, 211, 0.3);
+  margin-top: 0.5rem;
+}
+
+.approach-image {
+  width: 15rem;
+  height: 15rem;
+  float: left;
+  border-radius: 100%;
+  shape-outside: circle();
+  margin: 2rem 1rem 2rem 1rem;
+}
+
+.approach__box-text {
+  margin: 1rem;
+}
+
+//MEDIA QUERY 1000px
+@media (max-width: 1000px) {
+  .approach-header1 {
+    font-size: 2.5rem;
+  }
+  .approach-header2 {
+    font-size: 2.5rem;
+  }
+  .approach-text {
+    font-size: 1.1rem;
+  }
+  //image and text
+  .approach__box-info {
+    border: 2px solid rgba(175, 175, 211, 0.3);
+    margin-top: 5%;
+  }
+
+  .approach-image {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .approach__box-text {
+    margin: 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+// MEDIA QUERY 768px
+@media (max-width: 768px) {
+  .approach-header1 {
+    font-size: 2rem;
+  }
+  .approach-header2 {
+    font-size: 2rem;
+  }
+  .approach-text {
+    font-size: 1rem;
+  }
+  //image & text
+  .approach-right {
+    margin-top: -1rem;
+  }
+}
+
+//MEDIA QUERY 500px
+@media (max-width: 500px) {
+  .approach__box-text {
+    line-height: 1.3;
+  }
+  .approach-left {
+    text-align: center;
+  }
+}
+
+//MEDIA QUERY 360px
+@media (max-width: 360px) {
+  .approach-text {
+    margin: 1rem 0;
+    padding: 0 0.5rem;
+  }
+}
+
+//MEDIA QUERY 350px
+@media (max-width: 350px) {
+  .approach-text {
+    margin: 1rem 0;
+    padding: 0 0.5rem;
+  }
+}
